@@ -8,23 +8,23 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --orange: #ff6b35;
-  --orange-dark: #e85a24;
-  --orange-glow: rgba(255,107,53,0.25);
-  --dark: #0d0f14;
-  --dark2: #13161d;
-  --dark3: #1a1e28;
-  --card: #1e2230;
-  --card2: #242840;
-  --border: rgba(255,255,255,0.08);
-  --text: #e8eaf0;
-  --text-muted: #8892a4;
+  --orange: #ff5722;
+  --orange-dark: #e64a19;
+  --orange-glow: rgba(255,87,34,0.35);
+  --dark: #070707;
+  --dark2: #0e0e11;
+  --dark3: #15151a;
+  --card: #101014;
+  --card2: #16161c;
+  --border: rgba(255,255,255,0.05);
+  --text: #f4f4f5;
+  --text-muted: #8a8a93;
   --white: #ffffff;
-  --radius: 14px;
-  --radius-lg: 22px;
-  --shadow: 0 8px 40px rgba(0,0,0,0.45);
-  --shadow-card: 0 4px 24px rgba(0,0,0,0.3);
-  --transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+  --radius: 8px; /* Sharper pro radius */
+  --radius-lg: 16px;
+  --shadow: 0 15px 40px rgba(0,0,0,0.6);
+  --shadow-card: 0 8px 30px rgba(0,0,0,0.4);
+  --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 html { scroll-behavior: smooth; }
